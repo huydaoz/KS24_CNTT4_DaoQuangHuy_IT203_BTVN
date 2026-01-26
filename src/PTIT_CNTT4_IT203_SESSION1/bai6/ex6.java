@@ -1,4 +1,4 @@
-package PTIT_CNTT4_IT203_SESSION1;
+package PTIT_CNTT4_IT203_SESSION1.bai6;
 
 import java.util.Scanner;
 

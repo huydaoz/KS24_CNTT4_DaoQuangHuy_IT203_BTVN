@@ -1,4 +1,4 @@
-package PTIT_CNTT4_IT203_SESSION1;
+package PTIT_CNTT4_IT203_SESSION1.bai3;
 
 public class ex3 {
     public static void main(String[] args) {
