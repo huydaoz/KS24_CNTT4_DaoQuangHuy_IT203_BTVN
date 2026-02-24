@@ -1,0 +1,30 @@
+package PTIT_CNTT4_IT203_SESSION11.KiemTraDauGio;
+
+class Coffee extends Drink {
+
+    private boolean hasMilk;
+
+    public Coffee(String id, String name, double price, boolean hasMilk) {
+        super(id, name, price);
+        this.hasMilk = hasMilk;
+    }
+
+    @Override
+    public double calculatePrice() {
+        if (hasMilk) {
+            return price + 5000;
+        }
+        return price;
+    }
+
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+
+        if (hasMilk) {
+            System.out.println("Loại: Có Sữa");
+        } else {
+            System.out.println("Loại: Đen đá");
+        }
+    }
+}
